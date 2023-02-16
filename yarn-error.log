@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add lodash
+
+PATH: 
+  C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\admin\Downloads\web3j-4.1.1\web3j-4.1.1;C:\Users\admin\Downloads\web3j-4.1.1\web3j-4.1.1\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\AppData\Local\Android\Sdk\platform-tools;C:\Users\admin\Downloads\web3j-4.1.1\web3j-4.1.1;C:\Users\admin\Downloads\web3j-4.1.1\web3j-4.1.1\bin;C:\src\flutter\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\nodeIT\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node'
+
+npm manifest: 
+  {
+    "name": "nodeit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "commonjs",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon --exec babel-node src/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "body-parser": "^1.20.1",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "ejs": "^3.1.8",
+      "express": "^4.18.2",
+      "mysql2": "^3.1.2",
+      "sequelize": "^6.28.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.12",
+      "@babel/node": "^7.20.7",
+      "@babel/preset-env": "^7.20.2",
+      "nodemon": "^2.0.20",
+      "sequelize-cli": "^6.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
